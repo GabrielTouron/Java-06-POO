@@ -27,7 +27,7 @@ public class Wilder {
 	
 	// instance method
 	public String whoAmI() {
-		if (this.isAware()) {
+		if (this.aware) {
 			return "Je m'appelle " + this.getFirstname() + " et je suis aware";
 		} else {
 			return "Je m'appelle " + this.getFirstname() + " et je ne suis pas aware";
